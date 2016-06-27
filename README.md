@@ -1,7 +1,5 @@
 # The Bank Tech Test
 
->When in doubt, go for the simplest solution
-
 ### Requirements
 * Deposits, withdrawal
 * Account statement (date, amount, balance)
@@ -27,3 +25,43 @@ date || credit || debit || balance
 
 * Statement filters (just deposits, withdrawals, date ascending, date descending)
 * Graphical interface
+
+### User Stories
+
+```
+As a customer
+So I can save money
+I want to be able to make a deposit into my account
+
+As a customer
+So I can spend my money
+I want to be able to make a withdrawal from my Account
+
+As a customer
+So I can keep track of my finances
+I want to have an account statement
+
+As a customer
+So I can see my finances
+I want to be able to print my account summary in a legible format
+```
+
+### Instructions
+
+Clone this repo:
+
+`$ git@github.com:sitypop/bank_tech_test.git`
+
+Change into the `bank_tech_test` directory
+
+### Testing
+
+In your terminal, type `$ open SpecRunner.html` under `bank_tech_test`
+
+### Tools
+* Javascript
+* Jasmine
+
+### Author
+
+Sity Shah 🐧
